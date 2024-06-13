@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: #f1f1f1;
+    /* border-bottom: 1px solid #d1d1d1; */
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 20px;
+    flex-wrap: wrap;/* 화면 크기가 작아질 때 요소들이 줄바꿈될 수 있게 함 */
+}
+
+.nav-links {
+    
+    list-style: none;
+    display: flex;
+    position: relative; /* Relative positioning for dropdown */
+    flex-wrap: wrap; /* 화면 크기가 작아질 때 줄바꿈 */
+}
+
+.nav-links a {
+    /* margin-right: 20px; */
+    text-decoration: none;
+    color: #b93434;
+    padding: 18px;
+    margin: 0;
+    /* margin-top: 25px; */
+    /* display: auto; */
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.dropdown-content {
+    background: #f1f1f1;
+    display: none; /* Hide by default */
+    position: absolute;
+    min-width: 0px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+     padding-top:29px; /* Adjust as needed */
+    list-style: none;
+    z-index: 1; /* Ensure it stays above other elements */
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block; 
+}
+
+.dropdown-content a {
+    /* border: .5px solid #808080; */
+    display: block;
+    color: rgb(74, 74, 74);
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    /* transform: translateX(40%); */
+    color: #ffffff;
+    background: rgb(159, 54, 48);
+    transition: ease 1s;
+}
+
+.logo {
+    position: absolute; /* 절대 위치 지정 */
+    left: 50%; /* 화면의 50% 위치 */
+    transform: translateX(-50%); /* 중앙 정렬을 위한 변환 */
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.nav-icons a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-icons img {
+    width: 20px;
+    height: 20px;
+}
