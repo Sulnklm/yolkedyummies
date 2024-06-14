@@ -1,8 +1,10 @@
 @import url('header.css');
 @import url('footer.css');
+@import url('banner.css');
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 
 .banner {
     margin: 80px;
@@ -19,17 +21,9 @@ p {
     font-size: 20px;
 }
 
-.recent-calendar h3  {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 2em;
-    letter-spacing: 3px;
-}
-
 .advent-calendar {
     background-color: #f1f1f1;
-    height: 100vh;
+    height: 115vh;
     /* background: url(../img/bg.jpeg);
     background-size: cover; */
     min-height: 110vh;
@@ -48,12 +42,22 @@ p {
     /* Ensure it is in normal flow */
     transform: none;
 }
-
+.recent-calendar h1 {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #7a2fb3;
+}
 .recent-calendar h3 {
-    padding-bottom: 60px;
-    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    padding-bottom: 30px;
+    color: #474747;
+    font-family: "Lato", sans-serif;
+    font-weight: 0;
     font-style: normal;
-    color: #b93434;
+    font-size: 2em;
+    letter-spacing: 3px;
 }
 
 .calendar_items { 
@@ -79,7 +83,7 @@ p {
 
 .item h2 {
     font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 500;
+    font-weight: 1000;
     font-style: normal;
     text-align: center;
     font-size: 24px;
@@ -89,7 +93,7 @@ p {
 
 .item h3 {
     font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 500;
+    font-weight: 1000;
     font-style: normal;
     text-align: center;
     font-size: 24px;
@@ -97,25 +101,33 @@ p {
     font-size: 2em;
 }
 
+.item p {
+    color: #333;
+    padding: 13px;
+    font-weight: 700;
+}
 
-.grid-item p {
+
+/* .grid-item p {
     font-size: 16px;
     color: #666;
     margin-bottom: 10px;
-}
+} */
 
 .item .buy-now-btn {
     display: inline-block;
     padding:10px 15px;
-    background-color: #b93434;
-    color: #fff;
+    background-color: #914EC6;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
     margin-top: 20px;
 }
 
+
 .item .buy-now-btn:hover {
-    background-color: #333;
+    background-color: #ba89df;
+    color: #ffffff;
     transition: ease 0.3s;
 }
 
@@ -126,6 +138,7 @@ p {
 } */
 
 .item .img {
+    filter: drop-shadow(0px 10px 10px #969696); 
     border-radius: 15px;
     margin: 20px;
 }
@@ -138,7 +151,6 @@ p {
 }
 
 .reviews {
-    background-color: #ffffff;
     text-align: center;
     margin: 0 auto;
     padding-top: 60px;
@@ -151,55 +163,53 @@ p {
     min-height: 90vh;
 }
 
+.reviews h1 {
+    color: #474747;
+}
+
 .reviews p {
+    font-weight: 800;
+    color: #914EC6;
     font-family:"Lato", sans-serif;
     text-decoration: underline;
     padding-right: 130px;
     text-align: end;
 }
 
-
-/* 슬라이더 배너 */
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  top: 10px;
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+.reviews p:hover {
+    color: #474747;
 }
 
-.active {
-  background-color: #717171;
+.stars {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.stars a {    
+    align-self: flex-end;
+    color: #ffcc00;
+    font-size: 36px; /* 아이콘 크기 증가 */
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.star-2 a {
+    margin: 20px;
+    font-size: 66px; /* 아이콘 크기 증가 */
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.best_sellers .recent-calendar h1 {
+    color: #333;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+
+.calendar_items {
+    margin: 10px;
+    margin-bottom: 50px;
 }
+
+
+
+
 
 
 

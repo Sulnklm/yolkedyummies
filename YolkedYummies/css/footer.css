@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     margin: 0 0;
 }
 footer {
-    margin-bottom: 30px;
     padding: 30px;
     background-color: #757575;
     text-align: center;
@@ -30,7 +30,7 @@ footer {
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 .footerMenu:hover {
-    color: #f3EA00; /* Change text color on hover */
+    color: #ffce1b; /* Change text color on hover */
 
 }
 
@@ -49,10 +49,14 @@ footer {
 }
 
 #footerSocials a {
+    margin: 30px;
+    margin-left: 30px;
     text-decoration: none;
+    color: #ffffff;
 }
 
-#footerSocials a:hover .footerIcons {
+#footerSocials a:hover {
+    color: #ffce1b;
     transform: scale(1.2);
 }
 
@@ -66,7 +70,7 @@ footer {
     text-decoration: none;
 }
 #cookiePref:hover {
-    color: #f3EA00; 
+    color: #ffce1b; 
 }
 
 /* Bottom Text */
