@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/home.css" rel="stylesheet">
+    <link href="../css/products.css" rel="stylesheet">
     <title>All Products Page</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -24,8 +24,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="./calendar.html">Flavour of the Month</a>
-                    </li>
+                        <a href="./calendar.html">Flavour of the Month</a></li>
                     </li>
                     <li class="dropdown">
                         <a href="./aboutus.html">About Us</a>
@@ -35,7 +34,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="logo"><a href="./home copy 2.html">YolkedYummies</a></div>
+            <div class="logo"><a href="./home.html">Yolked <img src="../img/logo.png"> Yummies</a></div>
             <div class="nav-section right">
                 <div class="nav-icons">
                     <a href="#"><i class="fa-solid fa-user"></i></a>
@@ -54,11 +53,11 @@
 
     <div id="filters">
         <div id="filterButtons">
-            <button class="B1">ALL</button>
-            <button class="B1">SPECIAL</button>
-            <button class="B1">WHEY</button>
-            <button class="B1">ISOLATE</button>
-            <button class="B1">VEGAN</button>
+            <a href="#"><button class="B1">ALL</button></a>
+            <a href="#"><button class="B1">SPECIAL</button></a>
+            <a href="#"><button class="B1">WHEY</button></a>
+            <a href="#"><button class="B1">ISOLATE</button></a>
+            <a href="#"><button class="B1">VEGAN</button></a>
             </span>
         </div>
     </div>
@@ -67,10 +66,10 @@
     <div id="sNs">
 
         <div id="sortBy">
-            <button id="sortBTN">Sort By <ion-icon id="sortDown" name="chevron-down"
+            <button id="sortBTN">Latest<ion-icon id="sortDown" name="chevron-down"
                     style="position: relative; top: 2px; margin-left: 4px;"></ion-icon></button>
             <div id="dropdown-content">
-                <a href="#">Latest</a>
+                <a href="#">Sort By</a>
                 <a href="#">Price: Low to high</a>
                 <a href="#">Price: High to low</a>
             </div>
@@ -92,43 +91,49 @@
 
         <div class="productRow">
             <div class="product1-3">
-                <img src="../img/april.jpg" alt="product 1" class="productImage">
+                <img src="../img/mango.jpg" alt="product 1" class="productImage">
                 <h3>May 2024</h3>
                 <h3>Mango Mania Protein Punch</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
             <div class="product1-3">
-                <img src="../img/april.jpg" alt="product 2" class="productImage">
+                <img src="../img/cocoa.jpg" alt="product 2" class="productImage">
                 <h3>April 2024</h3>
                 <h3>Eggcellent Cocoa Crunch</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
             <div class="product1-3">
-                <img src="../img/april.jpg" alt="product 3" class="productImage">
+                <img src="../img/matcha.jpg" alt="product 3" class="productImage">
                 <h3>March 2024</h3>
                 <h3>Spring Meadows Matcha</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
         </div>
 
         <div class="productRow2">
             <div class="product4-6">
-                <img src="../img/april.jpg" alt="product 1" class="productImage">
+                <img src="../img/mango.jpg" alt="product 1" class="productImage">
                 <h3>May 2024</h3>
                 <h3>Mango Mania Protein Punch</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
             <div class="product4-6">
-                <img src="../img/april.jpg" alt="product 2" class="productImage">
+                <img src="../img/cocoa.jpg" alt="product 2" class="productImage">
                 <h3>April 2024</h3>
                 <h3>Eggcellent Cocoa Crunch</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
             <div class="product4-6">
-                <img src="../img/april.jpg" alt="product 3" class="productImage">
+                <img src="../img/matcha.jpg" alt="product 3" class="productImage">
                 <h3>March 2024</h3>
                 <h3>Spring Meadows Matcha</h3>
                 <p>$48.99</p>
+                <a href="#" class="buy-now-btn">Buy Now</a>
             </div>
         </div>
 
@@ -142,7 +147,31 @@
 
 
     <footer>
-
+        <div id="pageWidth">
+            <span id="footerNav">
+                <a href="contact.html" class="footerMenu">CONTACT</a>
+                <a href="contact.html" class="footerMenu">ABOUT US</a>
+                <a href="contact.html" class="footerMenu">PRIVACY POLICY</a>
+                <a href="contact.html" class="footerMenu">TERMS OF SERVICE</a>
+            </span>
+    
+            <div id="footerSocials">
+                <a href="https://www.instagram.com">
+                    <img src="../img/instagram icon.png" class="footerIcons" alt="Instagram Icon">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="../img/facebook icon.png" class="footerIcons" alt="Facebook Icon">
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="../img/X icon.png" class="footerIcons" alt="Twitter Icon">
+                </a>
+            </div>
+    
+            <a href="https://unsplash.com/s/photos/cookie" id="cookiePref">MANAGE COOKIE PREFERENCES</a>
+    
+            <p id="yyCopyright">Yolked Yummies® logo and design is a registered trademark of Premier Nutrition Company, LLC.<br>© Copyright 2023 Yolked Yummies Company, LLC. All rights reserved.<br>Yolked Yummies - MDIA 2092 - Project 1</p>
+    
+        </div>
     </footer>
 </body>
 
