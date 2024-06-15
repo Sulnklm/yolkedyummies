@@ -226,3 +226,13 @@
     height: 200px;
     border-radius: 20px;
 }
+
+#productDisplay .buynowbtn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #914EC6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
