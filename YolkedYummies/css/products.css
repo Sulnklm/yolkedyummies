@@ -219,7 +219,7 @@
     text-align: center;
     margin: 30px 150px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .productImage {
     width: 200px;
@@ -236,3 +236,50 @@
     border-radius: 35px;
     margin-top: 20px;
 }
+
+#pageSelect {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-link {
+    padding: 10px 0px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-family: "Lato", serif;
+}
+
+.page-link.active {
+    background-color: #007bff;
+    color: white;
+}
+.circle-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.circle-button:hover {
+    background-color: #914EC6;
+}
+
+/*If adding ... in between 2 and 3*/
+/* .paging p {
+    display: inline;
+}
+*/
