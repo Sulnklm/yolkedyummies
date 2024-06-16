@@ -47,10 +47,6 @@
 
 }
 
-
-
-
-
 .next h1{
     text-align: center;
     margin-top: 50px;
@@ -68,6 +64,11 @@
     line-height: 50px;
 }
 
-.next a p{
-    margin-bottom: 50px;
+.next a p {
+    margin-bottom: 30px;
 }
+
+.link a p {
+    text-align: center;
+}
+
