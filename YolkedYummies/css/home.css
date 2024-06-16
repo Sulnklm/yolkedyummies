@@ -23,10 +23,10 @@ p {
 }
 
 .advent-calendar {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     height: 115vh;
-    /* background: url(../img/bg.jpeg);
-    background-size: cover; */
+    background: url(../img/muscle.jpg);
+    background-size: cover;
     min-height: 110vh;
     padding-top: 40px;
 }
@@ -47,18 +47,22 @@ p {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #7a2fb3;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #5f5f5f;
+
 }
 .recent-calendar h3 {
     font-family: "Lato", sans-serif;
     padding: 0;
     padding-bottom: 30px;
-    color: #474747;
+    color: #e1ff75;
     font-family: "Lato", sans-serif;
-    font-weight: 0;
+    font-weight: 400;
     font-style: normal;
     font-size: 2em;
     letter-spacing: 3px;
+    text-shadow: 0px 0px 10px #5f5f5f;
+    
 }
 
 .calendar_items { 
@@ -88,8 +92,9 @@ p {
     font-style: normal;
     text-align: center;
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     font-size: 3em;
+    text-shadow: 0px 0px 20px #000000;
 }
 
 .item h3 {
@@ -98,12 +103,13 @@ p {
     font-style: normal;
     text-align: center;
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     font-size: 2em;
+    text-shadow: 0px 0px 20px #000000;
 }
 
 .item p {
-    color: #333;
+    color: #ffffff;
     padding: 13px;
     font-weight: 700;
 }
@@ -139,9 +145,10 @@ p {
 } */
 
 .item .img {
-    filter: drop-shadow(0px 10px 10px #969696); 
+    filter: drop-shadow(0px 0px 10px #aeaeae); 
     border-radius: 15px;
     margin: 20px;
+    border:1px solid #eaeaea;
 }
 
     
@@ -165,7 +172,7 @@ p {
 }
 
 .reviews h1 {
-    color: #474747;
+    color: #120044;
 }
 
 .reviews p {
@@ -192,15 +199,26 @@ p {
     align-self: flex-end;
     color: #ffcc00;
     font-size: 36px; /* 아이콘 크기 증가 */
+    text-shadow: 0px 0px 50px #1f1f1f;
 }
 
 .star-2 a {
     margin: 20px;
     font-size: 66px; /* 아이콘 크기 증가 */
+    text-shadow: 0px 0px 20px #000000;
 }
 
+.best_sellers{
+    height: 115vh;
+    background: url(../img/Stars.jpg);
+    background-size: cover;
+    min-height: 110vh;
+    padding-top: 40px;
+
+}
 .best_sellers .recent-calendar h1 {
-    color: #333;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #000000;
 }
 
 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-section left">
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <a href="./shopall.html">Shop All</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Shop by Diet</a></li>
+                            <li><a href="#">Shop by Goal</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./calendar.html">Flavour of the Month</a></li>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./aboutus.html">About Us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo"><a href="./home.html">Yolked <img src="../img/logo.png"> Yummies</a></div>
+            <div class="nav-section right">
+                <div class="nav-icons">
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section class="advent-calendar">
+    <div class="recent-calendar">
+        <h1>Advent Protein Powder Calendar</h1>
+        <h3>Discover a new flavour every month!</h3>
+    </div>
+
+    <div class="calendar_items">
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <h3>April</h3>
+                <img src="../img/cocoa.jpg" class="img" alt="product-img" width="250" class="centered-image">
+                <p>Eggcellent Cocoa Crunch</p>
+                <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
+            </div>
+
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <h2>May</h2>
+                <img src="../img/mango.jpg" class="img" alt="product-img" width="340" class="centered-image">
+                <p>Mango Mania Protein Punch</p>
+                <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
+            </div>
+
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <h3>June</h3>
+                <img src="../img/june.JPG" class="img" alt="product-img" width="250" class="centered-image">
+                <p>COMING SOON</p>
+                <a class="buy-now-btn"><i class="fa-solid fa-lock"></i></a>
+            </div>
+    </div>
+</section>
+
+<section class="next">
+    <h1>What's next month?</h1>
+    <p>Our Protein Powder Advent Calendar offers a specific flavour representing each month. <br>
+        Every month, we feature a new and unique flavor inspired by the season, making it a delightful surprise. 
+        <br>Stay tuned to uncover the exciting and distinct flavours awaiting you!</p>
+        <a href="../html/shopall.html" ><p style="color: blueviolet;">Browse Previous Flavours</p></a>
+</section>
+
+<section class="best_sellers">
+    <div class="stars">
+        <a href="#"><i class="fa-solid fa-star"></i></a>
+        <div class="star-2">
+        <a href="#"><i class="fa-solid fa-star"></i></a>
+        </div>
+        <a href="#"><i class="fa-solid fa-star"></i></a>
+    </div>
+    
+    <div class="recent-calendar">
+        <h1>Top Picks from 2023</h1>
+    </div>
+
+    <div class="calendar_items">
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img src="../img/cocoa.jpg" class="img" alt="product-img" width="280" class="centered-image">
+                <p>Eggcellent Cocoa Crunch</p>
+                <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
+            </div>
+
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img src="../img/mango.jpg" class="img" alt="product-img" width="280" class="centered-image">
+                <p>Mango Mania Protein Punch</p>
+                <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
+            </div>
+
+            <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img src="../img/matcha.jpg" class="img" alt="product-img" width="280" class="centered-image">
+                <p>Spring Meadow Matcha</p>
+                <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
+            </div>
+    </div>
+</section>
+
+
+<footer>
+    <div id="pageWidth">
+        <span id="footerNav">
+            <a href="contact.html" class="footerMenu">CONTACT</a>
+            <a href="contact.html" class="footerMenu">ABOUT US</a>
+            <a href="contact.html" class="footerMenu">PRIVACY POLICY</a>
+            <a href="contact.html" class="footerMenu">TERMS OF SERVICE</a>
+        </span>
+
+        <div id="footerSocials">
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <a href="https://unsplash.com/s/photos/cookie" id="cookiePref">MANAGE COOKIE PREFERENCES</a>
+
+        <p id="yyCopyright">Yolked Yummies® logo and design is a registered trademark of Premier Nutrition Company, LLC.<br>© Copyright 2023 Yolked Yummies Company, LLC. All rights reserved.<br>Yolked Yummies - MDIA 2092 - Project 1</p>
+    </div>
+</footer>
+
+</body>
+<script src="../js/egg.js"></script>
+</html>
