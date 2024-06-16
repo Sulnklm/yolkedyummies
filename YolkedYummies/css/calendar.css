@@ -1,18 +1,12 @@
-@import url('home.css');
 @import url('header.css');
 @import url('footer.css');
+@import url('home.css');
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap");
 
-
 .advent-calendar {
-    background-color: #f1f1f1;
-    height: 115vh;
-    /* background: url(../img/muscle.jpg); */
-    /* background-size: cover; */
-    min-height: 110vh;
-    padding-top: 40px;
+    background-color: #171717;
 }
 
 .recent-calendar h1 {
