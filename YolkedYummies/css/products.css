@@ -1,7 +1,6 @@
 @import url('header.css');
 @import url('footer.css');
 @import url('banner.css');
-@import url('home.css');
 @import url('products.css');
 
 #banner {
@@ -204,6 +203,10 @@
     background-color: black;
     margin: 30px 400px;
 }
+#productDisplay h3 {
+    margin: 20px;
+
+}
 
 /* Product Showcase */
 .productRow {
@@ -219,7 +222,7 @@
     text-align: center;
     margin: 30px 150px;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .productImage {
     width: 200px;
@@ -227,9 +230,9 @@
     border-radius: 20px;
 }
 
-#productDisplay .buynowbtn {
+.productRow2 .buy-now-btn, .productRow .buy-now-btn {
     display: inline-block;
-    padding: 10px 15px;
+    padding:10px 15px;
     background-color: #914EC6;
     color: #ffffff;
     text-decoration: none;
@@ -237,49 +240,39 @@
     margin-top: 20px;
 }
 
+
+.productRow2 .buy-now-btn:hover, .productRow .buy-now-btn:hover {
+    background-color: #ba89df;
+    color: #ffffff;
+    transition: ease 0.3s;
+}
+
 #pageSelect {
-    margin: 0 auto;
-    margin-bottom: 30px;
-    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.page-link {
-    padding: 10px 0px;
-    margin: 0 5px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    font-family: "Lato", serif;
+    height: 100%; /* 필요에 따라 높이를 조정하세요 */
 }
 
-.page-link.active {
-    background-color: #007bff;
-    color: white;
-}
-.circle-button {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: none;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    justify-content: center;
+.paging {
+    display: flex;
     align-items: center;
+}
+
+.circle-button {
+    background: none;
+    border: none;
     cursor: pointer;
-    margin: 0 10px;
+    font-size: 20px; /* 버튼의 크기를 조정합니다 */
 }
 
-.circle-button:hover {
-    background-color: #914EC6;
+.page-link {
+    margin: 0 5px; /* 링크 간의 간격을 조정합니다 */
+    text-decoration: none;
+    font-size: 20px; /* 폰트 크기를 조정합니다 */
+    color: gray; /* 기본 색상 설정 */
 }
 
-/*If adding ... in between 2 and 3*/
-/* .paging p {
-    display: inline;
+.page-link:first-of-type {
+    color: black; /* 첫 번째 링크의 색상을 검정으로 설정합니다 */
 }
-*/
