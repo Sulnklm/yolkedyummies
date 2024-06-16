@@ -251,7 +251,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* 필요에 따라 높이를 조정하세요 */
+    padding-bottom: 50px;
 }
 
 .paging {
@@ -263,16 +263,16 @@
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 20px; /* 버튼의 크기를 조정합니다 */
+    font-size: 20px; 
 }
 
 .page-link {
-    margin: 0 5px; /* 링크 간의 간격을 조정합니다 */
+    margin: 0 10px; 
     text-decoration: none;
-    font-size: 20px; /* 폰트 크기를 조정합니다 */
-    color: gray; /* 기본 색상 설정 */
+    font-size: 20px; 
+    color: gray; 
 }
 
 .page-link:first-of-type {
-    color: black; /* 첫 번째 링크의 색상을 검정으로 설정합니다 */
+    color: rgb(133, 0, 177); 
 }
