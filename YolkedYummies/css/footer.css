@@ -4,6 +4,9 @@ body {
     margin: 0 0;
 }
 footer {
+/* <<<<<<< HEAD
+======= */
+/* >>>>>>> bd6e06b07a62eec7a0b8609599ed7eba1e7487ea */
     margin-bottom: 0px;
     padding: 30px;
     background-color: #757575;
@@ -31,7 +34,7 @@ footer {
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 .footerMenu:hover {
-    color: #ffce1b; /* Change text color on hover */
+    color: #D5FF3E; /* Change text color on hover */
 
 }
 
@@ -44,20 +47,23 @@ footer {
 }
 
 .footerIcons {
-    transition: transform 0.3s ease; 
+
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-#footerSocials a {
+#footerSocials a {    
+    transition: transform 0.3s ease; 
     margin: 30px;
     margin-left: 30px;
     text-decoration: none;
     color: #ffffff;
+    font-size: 36px;
+    
 }
 
 #footerSocials a:hover {
-    color: #ffce1b;
+    color: #D5FF3E;
     transform: scale(1.2);
 }
 
@@ -71,7 +77,7 @@ footer {
     text-decoration: none;
 }
 #cookiePref:hover {
-    color: #ffce1b; 
+    color: #D5FF3E; 
 }
 
 /* Bottom Text */

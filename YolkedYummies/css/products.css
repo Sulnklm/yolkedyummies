@@ -4,7 +4,7 @@
 @import url('products.css');
 
 #banner {
-    background-color: #FFDD66;
+    background-color: #E1FF75;
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 #banner h1 {
@@ -26,7 +26,7 @@
 #bannerCTA {
     display: inline-block;
     padding:15px 18px;
-    background-color: #707070;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
@@ -35,8 +35,8 @@
 
 #bannerCTA:hover {
     transition: ease 0.3s;
-    background-color: #ba89df;
-    color: rgb(255, 255, 255);
+    background-color: #000000;
+    color: #D5FF3E;
 }
 
 /*filters*/
@@ -75,8 +75,8 @@
 
 
 .B1:hover {
-    background-color: #914EC6;
-    color: rgb(255, 255, 255);
+    background-color: #000000;
+    color: #D5FF3E;
     transition: ease 0.2s;
 }
 
@@ -233,7 +233,7 @@
 .productRow2 .buy-now-btn, .productRow .buy-now-btn {
     display: inline-block;
     padding:10px 15px;
-    background-color: #914EC6;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
@@ -242,8 +242,8 @@
 
 
 .productRow2 .buy-now-btn:hover, .productRow .buy-now-btn:hover {
-    background-color: #ba89df;
-    color: #ffffff;
+    background-color: #000000;
+    color: #D5FF3E;
     transition: ease 0.3s;
 }
 
