@@ -23,10 +23,10 @@ p {
 }
 
 .advent-calendar {
-    /* background-color: #f1f1f1; */
+    background-color: #000000;
     height: 115vh;
-    background: url(../img/muscle.jpg);
-    background-size: cover;
+    /* background: url(../img/muscle.jpg);
+    background-size: cover; */
     min-height: 110vh;
     padding-top: 40px;
 }
@@ -124,7 +124,7 @@ p {
 .item .buy-now-btn  {
     display: inline-block;
     padding:10px 15px;
-    background-color: #914EC6;
+    background-color: #525252;
     color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
@@ -210,8 +210,7 @@ p {
 
 .best_sellers{
     height: 115vh;
-    background: url(../img/Stars.jpg);
-    background-size: cover;
+    background-color: #000000;
     min-height: 110vh;
     padding-top: 40px;
 
