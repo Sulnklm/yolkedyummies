@@ -6,36 +6,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap");
 
 .advent-calendar {
-    background-color: #171717;
+    background-color: #ffffff;
 }
 
 .recent-calendar h1 {
-    color: #FFDD66;
-    text-shadow: 0px 0px 20px #2d283e;
+    color: #000000;
+    /* text-shadow: 0px 0px 20px #2d283e; */
 }
 
 .recent-calendar h3 {
-    color: #ffffff;
-    text-shadow: 0px 0px 10px #ffffff;
+    color: #000000;
+    /* text-shadow: 0px 0px 10px #ffffff; */
 }
 
 .item h2 {
-    color: #ab51f0;
-    text-shadow: 0px 0px 20px #171717;
+    color: #000000;
+    /* text-shadow: 0px 0px 20px #171717; */
 }
 
 .item h3 {
-    color: #ffffff;
-    text-shadow: 0px 0px 10px #1a1a1a;
+    color: #000000;
+    /* text-shadow: 0px 0px 10px #1a1a1a; */
 }
 
 .item p {
-    color: #ffffff;
+    color: #000000;
 }
 
 .best_sellers{
     height: 115vh;
-    background-color: #171717;
+    background-color: #ffffff;
     min-height: 110vh;
     padding-top: 40px;
 
@@ -52,7 +52,7 @@
 
 .next p {
     text-align: center;
-    color: #333;
+    color: #000000;
     padding: 13px;
     font-weight: 400;
     line-height: 50px;

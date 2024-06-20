@@ -100,12 +100,14 @@ header {
 }
 
 .logo {
+    vertical-align: middle;
     position: absolute; /* 절대 위치 지정 */
     left: 50%; /* 화면의 50% 위치 */
     transform: translateX(-50%); /* 중앙 정렬을 위한 변환 */
 }
 
 .logo a {
+    vertical-align: middle;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -113,6 +115,7 @@ header {
     color: #000000;
 }
 .logo img {
+    vertical-align: middle;
     width: 95px;
     height: 95px;
 }

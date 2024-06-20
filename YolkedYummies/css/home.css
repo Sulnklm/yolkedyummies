@@ -23,7 +23,7 @@ p {
 }
 
 .advent-calendar {
-    background-color: #000000;
+    background-color: #ffffff;
     height: 115vh;
     /* background: url(../img/muscle.jpg);
     background-size: cover; */
@@ -47,21 +47,21 @@ p {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #ffffff;
-    text-shadow: 0px 0px 10px #5f5f5f;
+    color: #000000;
+    /* text-shadow: 0px 0px 10px #5f5f5f; */
 
 }
 .recent-calendar h3 {
     font-family: "Lato", sans-serif;
     padding: 0;
     padding-bottom: 30px;
-    color: #e1ff75;
+    color: #000000;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
     letter-spacing: 3px;
-    text-shadow: 0px 0px 10px #5f5f5f;
+    /* text-shadow: 0px 0px 10px #5f5f5f; */
     
 }
 
@@ -92,9 +92,9 @@ p {
     font-style: normal;
     text-align: center;
     font-size: 24px;
-    color: #ffffff;
+    color: #000000;
     font-size: 3em;
-    text-shadow: 0px 0px 20px #000000;
+    /* text-shadow: 0px 0px 20px #000000; */
 }
 
 .item h3 {
@@ -105,11 +105,11 @@ p {
     font-size: 24px;
     color: #ffffff;
     font-size: 2em;
-    text-shadow: 0px 0px 20px #000000;
+    /* text-shadow: 0px 0px 20px #000000; */
 }
 
 .item p {
-    color: #ffffff;
+    color: #000000;
     padding: 13px;
     font-weight: 700;
 }
@@ -124,7 +124,7 @@ p {
 .item .buy-now-btn  {
     display: inline-block;
     padding:10px 15px;
-    background-color: #525252;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
@@ -133,7 +133,7 @@ p {
 
 
 .item .buy-now-btn:hover {
-    background-color: #ba89df;
+    background-color: #5c5c5c;
     color: #ffffff;
     transition: ease 0.3s;
 }
@@ -145,8 +145,9 @@ p {
 } */
 
 .item .img {
+    width: 300px;
     filter: drop-shadow(0px 0px 10px #aeaeae); 
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 20px;
     border:1px solid #eaeaea;
 }
@@ -172,12 +173,12 @@ p {
 }
 
 .reviews h1 {
-    color: #120044;
+    color: #000000;
 }
 
 .reviews p {
     font-weight: 800;
-    color: #914EC6;
+    color: #000000;
     font-family:"Lato", sans-serif;
     text-decoration: underline;
     padding-right: 130px;
@@ -186,7 +187,7 @@ p {
 
 .reviews p:hover {
     transition: ease 0.5s;
-    color: #474747;
+    color: #6e6e6e;
 }
 
 .stars {
@@ -197,27 +198,27 @@ p {
 
 .stars a {    
     align-self: flex-end;
-    color: #ffcc00;
+    color: #000000;
     font-size: 36px; /* 아이콘 크기 증가 */
-    text-shadow: 0px 0px 50px #1f1f1f;
+    /* text-shadow: 0px 0px 50px #1f1f1f; */
 }
 
 .star-2 a {
     margin: 20px;
     font-size: 66px; /* 아이콘 크기 증가 */
-    text-shadow: 0px 0px 20px #000000;
+    /* text-shadow: 0px 0px 20px #000000; */
 }
 
 .best_sellers{
     height: 115vh;
-    background-color: #000000;
+    background-color: #ffffff;
     min-height: 110vh;
     padding-top: 40px;
 
 }
 .best_sellers .recent-calendar h1 {
-    color: #ffffff;
-    text-shadow: 0px 0px 20px #000000;
+    color: #000000;
+    /* text-shadow: 0px 0px 20px #000000; */
 }
 
 
