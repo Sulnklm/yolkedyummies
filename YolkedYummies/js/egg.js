@@ -1,11 +1,11 @@
 function zoomIn(event) {
-event.target.style.transform = "scale(1.2)";
+event.target.style.transform = "scale(1.1)";
 event.target.style.zIndex = 1;
 event.target.style.transition = "all 0.5s";
 }
 
 function zoomOut(event) {
-event.target.style.transform = "scale(1)";
+event.target.style.transform = "scale(1.0)";
 event.target.style.zIndex = 0;
 event.target.style.transition = "all 0.5s";
 }
@@ -32,6 +32,10 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
+
+function dropdown() {
+
+}
