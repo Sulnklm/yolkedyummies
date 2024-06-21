@@ -1,0 +1,348 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('banner.css');
+@import url('products.css');
+
+#banner {
+    background-color: #E1FF75;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    font-family: "Lato", serif;
+    margin-bottom: 20px;
+}
+
+#bannerCTA {
+    display: inline-block;
+    padding:15px 18px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+#bannerCTA:hover {
+    transition: ease 0.3s;
+    background-color: #000000;
+    color: #D5FF3E;
+}
+
+/*filters*/
+
+#filters {
+    background-color: #ffffff;
+    height: 5em;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filterButtons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10%;
+}
+
+.B1 {
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 1;
+    font-family: "Lato", serif;
+    font-size: 18px;
+    background-color: #000000;
+    border-radius: 30px;
+    outline: none;
+}
+
+
+.B1:hover {
+    background-color: #000000;
+    color: #D5FF3E;
+    transition: ease 0.2s;
+}
+
+
+
+#sNs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-top: solid rgb(192, 192, 192) 1px;
+    border-bottom: solid rgb(192, 192, 192) 1px;
+    height: 50px;
+}
+
+#productHeader {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    font-family: "Lato", serif;
+}
+
+#productNumber {
+    margin: 0 auto;
+    font-family: "Lato", serif;
+    color: #8f8f8f;
+}
+/* SORT Bar */
+#sortBy {
+    justify-self: start;
+    margin-left: 80px;
+}
+
+#viewIcon {
+    margin: 0 auto;
+    margin-right: 80px;
+}
+#viewIcon a {
+    margin-left: 10px; /* Adjust spacing between icons as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+#viewIcon img {
+    border: none; /* Remove any borders */
+    text-decoration: none; /* Ensure no text decoration */
+}
+
+#sortBTN {
+    width: 100px;
+    height: 32px;
+    border: none;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #8f8f8f;
+    font-family: "Lato", serif;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Lato", serif;
+    font-size: 16px;
+}
+
+#dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+#sortBy:hover #dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#sortBy:hover #sortBTN {
+    background-color: #ffffff;
+}
+/*
+/* Search Bar
+#searchBar {
+    justify-self: end;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: right;
+    margin-right: 100px;
+}
+
+#searchTerm {
+    width: 100%;
+    border: 1px solid #000000;
+    border-right: none;
+    padding: 15px;
+    height: 32px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: "Lato", serif;
+    outline: none;
+    color: #000000;
+}
+
+#searchTerm:focus {
+    color: #000000;
+}
+
+#searchButton {
+    width: 40px;
+    height: 32px;
+    border: 1px solid #000000;
+    border-left: none;
+    background: #fafafa;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchIcon {
+    color: rgb(18, 21, 44);
+    padding-top: 3px;
+}
+ */
+
+.productDisplay {
+    align-items: center;
+    background-color: black;
+    margin: 30px 400px;
+}
+
+/* Product Showcase */
+.productRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 30px 150px;
+}
+
+.productRow2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 30px 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.productRow3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 30px 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.productImage {
+    width: 85%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/*Row 2 Buttons*/
+.productRow2 .buy-now-btn, .productRow .buy-now-btn {
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+
+.productRow2 .buy-now-btn:hover, .productRow .buy-now-btn:hover {
+    background-color: #000000;
+    color: #D5FF3E;
+    transition: ease 0.3s;
+}
+/*Row 3 Buttons*/
+.productRow3 .buy-now-btn, .productRow .buy-now-btn {
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+
+.productRow3 .buy-now-btn:hover, .productRow .buy-now-btn:hover {
+    background-color: #000000;
+    color: #D5FF3E;
+    transition: ease 0.3s;
+}
+
+
+#pageSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.paging {
+    display: flex;
+    align-items: center;
+}
+
+.circle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.page-link {
+    margin: 0 10px; 
+    text-decoration: none;
+    font-size: 20px; 
+    color: gray; 
+}
+
+.page-link:first-of-type {
+    color: rgb(0, 0, 0); 
+}
+
+.productName {
+    font-family: "Lato", serif;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.productPrice {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #555555;
+    margin-top: 0;
+}
+
+.product4-6 a:hover img {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.product1-3 a:hover img {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (max-width: 768px) {
+    #viewIcon img {
+        width: 15px;
+        height: 15px;
+    }
+}
