@@ -1,5 +1,5 @@
 function zoomIn(event) {
-event.target.style.transform = "scale(1.0)";
+event.target.style.transform = "scale(1.1)";
 event.target.style.zIndex = 1;
 event.target.style.transition = "all 0.5s";
 }
