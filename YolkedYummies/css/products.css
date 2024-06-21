@@ -346,3 +346,8 @@
         height: 15px;
     }
 }
+
+#productDisplay h3{
+    text-decoration: none;
+
+}
