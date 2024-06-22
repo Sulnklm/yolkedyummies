@@ -6,8 +6,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  /></head>
 <body>
     <header>
         <nav class="navbar">
@@ -75,21 +75,21 @@
 
     <div class="calendar_items">
             <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-                <h3>April</h3>
+                <h3>June</h3>
                 <img src="../img/cocoa.jpg" class="img" alt="product-img" width="250" class="centered-image">
                 <p>Eggcellent Cocoa Crunch</p>
                 <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
             </div>
 
             <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-                <h2>May</h2>
+                <h2>July</h2>
                 <img src="../img/mango.jpg" class="img" alt="product-img" width="340" class="centered-image">
                 <p>Mango Mania Protein Punch</p>
                 <a href="./shopall.html" class="buy-now-btn">Buy Now</a>
             </div>
 
             <div class="item" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-                <h3>June</h3>
+                <h3>August</h3>
                 <img src="../img/june.JPG" class="img" alt="product-img" width="250" class="centered-image">
                 <p>COMING SOON</p>
                 <a class="buy-now-btn"><i class="fa-solid fa-lock"></i></a>
@@ -100,9 +100,31 @@
 <section class="our_reviews">
     <div class="reviews">
         <h1>Our Reviews</h1>
-        <a href="./shopall.html"><p>See all</p></a>
     </div>
-      
+        
+    
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../img/Angus.png"><br>
+                <p>Angus Fong: self-proclaimed natty</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h3>"I’ve been looking for plant based proteins with “fun” flavors other than chocolate or vanilla because sometimes I feel left out with all the cool flavors of whey protein there are. Yolked Yummies delivered. Their advent calendar for protein powder is easily the best protein I’ve had. On top of a great variety, the texture and taste is amazing!!!"</h3>
+            </div>
+            <div class="swiper-slide"><p>Suin Kim</p></div>
+            <div class="swiper-slide">Sonya</div>
+            <div class="swiper-slide">Pochu</div>
+            <div class="swiper-slide">Mahdieh</div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+
+    </div>
 
 </section>
 
@@ -165,6 +187,27 @@
 
 </body>
 <script src="../js/egg.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+    direction: 'horizontal',
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });</script>
 </html>
 
 
