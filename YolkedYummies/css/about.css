@@ -1,3 +1,8 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('banner.css');
+@import url('products.css');
+
 #aboutBanner {
     background-color: #E1FF75;
     background-size: cover;
