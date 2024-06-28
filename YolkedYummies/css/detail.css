@@ -91,10 +91,14 @@
     text-align: left;
 }
 
-#description h3 {
+#description h1 {
     font-family: "Lato", sans-serif;
-    font-size: 1.3em;
-    font-weight: 100px;
+}
+
+#description h3 {
+    font-family: "Lato", serif;
+    font-size: 20px;
+    font-weight: 300;
     margin-top: 18px;
     line-height: 60px;
 }
@@ -103,15 +107,29 @@
     margin: 40px 0;
 }
 #description img {
-    width: 1150px;
+    width: 1200px;
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .supplement_fact {
-    padding: 20px 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
     background-color: #dfdfdf;
+}
+
+#description .supplement_fact h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    
+}
+
+.supplement_fact p {
+    font-family: "Lato", serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .reviews h1 {
@@ -174,7 +192,7 @@
 hr {
     width: 90%;
     margin-left : auto;
-  margin-right : auto;
+    margin-right : auto;
 }
 
 .reviewHr {
