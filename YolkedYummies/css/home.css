@@ -2,8 +2,7 @@
 @import url('footer.css');
 @import url('banner.css');
 @import url('products.css');
-@import url('displayproduct.css');
-@import url('about.css');
+/* @import url('displayproduct.css'); */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap");
@@ -26,7 +25,7 @@ p {
 
 .advent-calendar {
     background-color: #ffffff;
-    height: 115vh;
+    height: 110vh;
     /* background: url(../img/muscle.jpg);
     background-size: cover; */
     min-height: 110vh;
@@ -149,7 +148,7 @@ p {
 .item .img {
     width: 300px;
     filter: drop-shadow(0px 0px 10px #aeaeae); 
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 20px;
     border:1px solid #eaeaea;
 }
@@ -161,30 +160,33 @@ p {
     transform: translateX(-50%);
 }
 
-.reviews {
+.reviews{
     text-align: center;
-    margin: 0 auto;
-    padding-top: 60px;
+    /* margin: 0 auto; */
+    margin-top: 0px;
+    padding-bottom: 50px;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 1em;
-    height: 100vh;
-    background-size: cover;
-    min-height: 90vh;
+    /* height: 100vh; */
+    /* background-size: cover; */
+    /* min-height: 90vh; */
 }
 
 .reviews h1 {
     color: #000000;
 }
 
-.reviews p {
-    font-weight: 800;
+.seeAll p{
+    text-align: center;
+    font-weight: 500;
     color: #000000;
     font-family:"Lato", sans-serif;
     text-decoration: underline;
-    padding-right: 130px;
-    text-align: end;
+    margin-top: 30px;
+    /* padding-right: 100px; */
+    /* text-align: end; */
 }
 
 .reviews p:hover {
@@ -192,8 +194,10 @@ p {
     color: #6e6e6e;
 }
 
+
+
 .stars {
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -206,7 +210,7 @@ p {
 }
 
 .star-2 a {
-    margin: 20px;
+    margin: 50px;
     font-size: 66px; /* 아이콘 크기 증가 */
     /* text-shadow: 0px 0px 20px #000000; */
 }
@@ -230,6 +234,60 @@ p {
 }
 
 
+.swiper {    
+    text-align: center;
+    width: 1000px;
+    height: 470px;
+    border:1px solid #000000;
+    background-color: white;
+    border-radius: 30px;
+    filter: drop-shadow(0px 10px 10px #a4a4a4); 
+    padding-bottom: 50px;
+  }
+
+.swiper-slide img {
+    object-fit: cover;
+    margin: 35px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide h3 {
+    font-family:"Lato", sans-serif;
+    margin-top: 30px;
+    line-height: 45px;
+    margin: 30px 80px;
+    text-align: center;
+}
+.swiper-slide p {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: rgb(188, 188, 188); 
+    padding: 0 25px;
+    width: 5px;
+    height: 5px;
+    
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: rgb(66, 66, 66);
+    transition: 0.5s;
+}
+
+.swiper .swiper-pagination-bullet {
+    background-color: black; 
+}
+
+.swiper .swiper-pagination {
+    margin-bottom: 20px;
+}
 
 
 
