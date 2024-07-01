@@ -25,10 +25,10 @@ p {
 
 .advent-calendar {
     background-color: #ffffff;
-    height: 110vh;
+    height: 105vh;
     /* background: url(../img/muscle.jpg);
     background-size: cover; */
-    min-height: 110vh;
+    min-height: 105vh;
     padding-top: 40px;
 }
 
@@ -74,7 +74,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px 60px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .item {    
@@ -160,10 +160,15 @@ p {
     transform: translateX(-50%);
 }
 
+.our_reviews {
+    border-top: solid rgb(212, 212, 212) .5px;
+    padding: 20px;
+}
+
 .reviews{
     text-align: center;
     /* margin: 0 auto; */
-    margin-top: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
@@ -194,10 +199,48 @@ p {
     color: #6e6e6e;
 }
 
+#aboutContent {
+    border-top: solid rgb(212, 212, 212) .5px;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 70px auto;
+    padding-top: 70px;
+}
+
+#aboutImage {
+    width: 85%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#textSide h2 {
+    text-align: left;
+    font-family: "Lato", serif;
+    font-size: 36px;
+    padding-left: 30px;
+    color: #4d3400;
+}
+
+#textSide p {
+    font-family: "Lato", serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-top: 20px;
+    letter-spacing: .5px;
+    line-height: 1.8;
+}
+
+.best_sellers {
+    border-top: solid rgb(212, 212, 212) .5px;
+}
 
 .stars {
-    margin-top: 100px;
+    
+
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -216,9 +259,9 @@ p {
 }
 
 .best_sellers{
-    height: 115vh;
+    height: 105vh;
     background-color: #ffffff;
-    min-height: 110vh;
+    min-height: 105vh;
     padding-top: 40px;
 
 }
@@ -229,8 +272,8 @@ p {
 
 
 .calendar_items {
-    margin: 10px;
-    margin-bottom: 50px;
+    margin: 0px;
+    margin-bottom: 0px;
 }
 
 

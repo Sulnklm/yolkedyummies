@@ -4,7 +4,7 @@
 @import url('products.css');
 
 #banner {
-    background-color: #E1FF75;
+    background-color: #cecece;
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -60,7 +60,7 @@
 
 .B1 {
     cursor: pointer;
-    height: 50px;
+    height: 45px;
     width: 120px;
     color: #fff;
     border: 1px solid white;
@@ -69,13 +69,13 @@
     font-family: "Lato", serif;
     font-size: 18px;
     background-color: #979797;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
 }
 
 .B2 {
     cursor: pointer;
-    height: 50px;
+    height: 45px;
     width: 120px;
     color: #fff;
     border: 1px solid white;
@@ -84,7 +84,7 @@
     font-family: "Lato", serif;
     font-size: 18px;
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     
 }
