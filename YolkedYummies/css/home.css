@@ -48,10 +48,28 @@ p {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #000000;
+    background-image: -webkit-linear-gradient(12deg,#ffd21f, #ff4089, #7cdcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 8s infinite linear;
     /* text-shadow: 0px 0px 10px #5f5f5f; */
 
 }
+
+@-webkit-keyframes hue {
+    0% {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    25% {
+      -webkit-filter: hue-rotate(-120deg);
+    }
+    50% {
+      -webkit-filter: hue-rotate(-240deg);
+    }
+    75% {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
 .recent-calendar h3 {
     font-family: "Lato", sans-serif;
     padding: 0;
@@ -125,13 +143,26 @@ p {
 .item .buy-now-btn  {
     display: inline-block;
     padding:10px 15px;
-    background-color: #000000;
+    background: linear-gradient(-45deg, #ffd21f, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
     color: #ffffff;
     text-decoration: none;
     border-radius: 35px;
     margin-top: 20px;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 .item .buy-now-btn:hover {
     background-color: #5c5c5c;
@@ -201,7 +232,6 @@ p {
 
 #aboutContent {
     border-top: solid rgb(212, 212, 212) .5px;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80%;
@@ -210,9 +240,11 @@ p {
 }
 
 #aboutImage {
-    width: 85%;
-    height: auto;
+    width: 600px;
+    height: 540px;
     border-radius: 15px;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
 #textSide h2 {
@@ -231,6 +263,13 @@ p {
     padding-top: 20px;
     letter-spacing: .5px;
     line-height: 1.8;
+}
+
+.aboutContent img {
+    width: 600px;
+    height: 600px;
+
+    
 }
 
 .best_sellers {

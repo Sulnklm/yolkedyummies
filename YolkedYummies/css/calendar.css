@@ -9,10 +9,28 @@
     background-color: #ffffff;
 }
 
-.recent-calendar h1 {
-    color: #000000;
-    /* text-shadow: 0px 0px 20px #2d283e; */
+.gradient {
+    background-image: -webkit-linear-gradient(125deg,#ffd21f, #ff4089, #7cdcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 8s infinite linear;
+
 }
+
+@-webkit-keyframes hue {
+    0% {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    33.33% {
+      -webkit-filter: hue-rotate(-120deg);
+    }
+    66.66% {
+      -webkit-filter: hue-rotate(-240deg);
+    }
+    100% {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
 
 .recent-calendar h3 {
     color: #000000;
@@ -38,11 +56,15 @@
 }
 
 .best_sellers{
-    height: 125vh;
+    height: 110vh;
     background-color: #ffffff;
     min-height: 110vh;
     padding-top: 40px;
+    color: #000000;
+}
 
+.next {
+    border-top: solid rgb(212, 212, 212) .5px;
 }
 
 .next h1{
@@ -68,5 +90,6 @@
 
 .link a p {
     text-align: center;
+    padding-top: 45px;
 }
 
