@@ -4,7 +4,7 @@
 @import url('products.css');
 
 #aboutBanner {
-    background-color: #E1FF75;
+    background-image: url("../img/aboutBG.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 #aboutBanner h1 {
@@ -33,22 +33,27 @@
 #howStart {
     text-align: center;
     font-family: "Lato", serif;
+    margin: 40px;
+    margin-bottom: 60px;
 }
 
 #howStart h2 {
+    font-size: 2em;
     font-weight: 400;
     margin: 20px auto;
     padding-top: 10px;
 }
 #howStart p {
     font-weight: 300;
+    line-height: 40px;
+    font-size: 1.3em;
 }
 
 #aboutContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80%;
-    margin: 40px auto;
+    margin: 50px auto;
 }
 #aboutImage {
     width: 85%;
@@ -61,6 +66,7 @@
     font-size: 36px;
     padding-left: 30px;
     color: #4d3400;
+    margin-bottom: 20px;
 }
 #textSide p {
     font-family: "Lato", serif;
@@ -69,7 +75,7 @@
     padding-left: 30px;
     padding-top: 10px;
     letter-spacing: .5px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 #aboutpage2 {
@@ -123,13 +129,20 @@
 }
 
 .hoverText {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: bold;
-    font-weight: 400;
+    font-weight: 300;
     padding: 20px;
+    font-family: "Lato", serif;
+    line-height: 40px;
 }
 
+
+.initialText {
+    font-family: "Lato", serif;
+    font-weight: 500;
+}
 .initialOverlay,
 .hoverOverlay {
     position: absolute;
