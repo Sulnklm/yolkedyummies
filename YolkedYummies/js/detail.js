@@ -2,7 +2,7 @@ const plus = document.querySelector(".plus");
 const minus = document.querySelector(".minus");
 const num = document.querySelector(".num");
 const total = document.querySelector(".totalcost")
-    const price = 13.99;
+    const price = 48.99;
     let a = 1;
 
     // arrow 식
